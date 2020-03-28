@@ -1,8 +1,0 @@
-name: Ubuntu
-on: [push]
-jobs:
-  Ubuntu:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Setup tmate session
-      uses: joshua20446136/debugger-action@master
